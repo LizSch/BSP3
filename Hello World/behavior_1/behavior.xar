@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?><ChoregrapheProject xmlns="http://www.aldebaran-robotics.com/schema/choregraphe/project.xsd" xar_version="3"><Box name="root" id="-1" localization="8" tooltip="Root box of Choregraphe&apos;s behavior. Highest level possible." x="0" y="0"><bitmap>media/images/box/root.png</bitmap><script language="4"><content><![CDATA[]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" /><Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="4" /><Timeline enable="0"><BehaviorLayer name="behavior_layer1"><BehaviorKeyframe name="keyframe1" index="1"><Diagram><Box name="test" id="1" localization="8" tooltip="" x="119" y="154"><bitmap>media/images/box/box-python-script.png</bitmap><script language="4"><content><![CDATA[<?xml version="1.0" encoding="UTF-8" ?>
+<Package name="BiCS Interactive" format_version="4">
+    <Manifest src="manifest.xml" />
+    <BehaviorDescriptions>
+        <BehaviorDescription name="behavior" src="Bics_interactive" xar="behavior.xar" />
+    </BehaviorDescriptions>
+    <Dialogs>
+        <Dialog name="Bics" src="Bics/Bics.dlg" />
+        <Dialog name="Uni" src="Uni/Uni.dlg" />
+        <Dialog name="Fun" src="Fun/Fun.dlg" />
+        <Dialog name="introduction" src="introduction/introduction.dlg" />
+    </Dialogs>
+    <Resources>
+        <File name="icon" src="icon.png" />
+        <File name="bics-logo-green-white-new" src="html/bics-logo-green-white-new.png" />
+        <File name="stylesheet" src="html/stylesheet.css" />
+        <File name="Slide1" src="html/Slide1.png" />
+        <File name="Slide2" src="html/Slide2.png" />
+        <File name="Slide3" src="html/Slide3.png" />
+        <File name="Slide4" src="html/Slide4.png" />
+        <File name="swiftswords_ext" src="Bics_interactive/swiftswords_ext.mp3" />
+        <File name="taichimove" src="Bics_interactive/taichimove.pmt" />
+        <File name="index" src="html/index.html" />
+        <File name="disco" src="html/disco.mp3" />
+        <File name="giphy" src="html/giphy.gif" />
+        <File name="Slide5" src="html/Slide5.png" />
+        <File name="Slide6" src="html/Slide6.png" />
+        <File name="rock" src="html/rock.mp3" />
+        <File name="slides" src="html/slides.html" />
+        <File name="slides2" src="html/slides2.html" />
+        <File name="background" src="html/background.jpg" />
+        <File name="Prototype" src="html/Prototype.ttf" />
+    </Resources>
+    <Topics>
+        <Topic name="Bics_enu" src="Bics/Bics_enu.top" topicName="Bics" language="en_US" />
+        <Topic name="Uni_enu" src="Uni/Uni_enu.top" topicName="Uni" language="en_US" />
+        <Topic name="Fun_enu" src="Fun/Fun_enu.top" topicName="Fun" language="en_US" />
+        <Topic name="introduction_enu" src="introduction/introduction_enu.top" topicName="introduction" language="en_US" />
+    </Topics>
+    <IgnoredPaths />
+    <Translations auto-fill="en_US">
+        <Translation name="translation_en_US" src="translations/translation_en_US.ts" language="en_US" />
+    </Translations>
+</Package>]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" /><Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="4" /></Box><Link inputowner="1" indexofinput="2" outputowner="0" indexofoutput="2" /></Diagram></BehaviorKeyframe></BehaviorLayer></Timeline></Box></ChoregrapheProject>
